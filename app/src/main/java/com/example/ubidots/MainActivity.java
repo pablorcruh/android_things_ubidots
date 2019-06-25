@@ -15,11 +15,11 @@ import java.util.Random;
 
 public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
-    private final String token = "BBFF-q4U92kzOXYKcFq3z7nxI6g4UX9kMR5";
+    private final String token = BuildConfig.ApiKey;
     private final String idIluminacion="5d02adad1d84724c9907b41f";
     private final String idBoton="5d02adc71d84724cfe61fa72";
 
-    private final String PIN_BUTTON = "BCM23";
+    private final String PIN_BUTTON = "BCM6";
     private Gpio mButtonGpio;
     private Double buttonstatus= 0.0;
     private Handler handler = new Handler();
